@@ -1,0 +1,40 @@
+{
+  "name": "flagwatch",
+  "version": "1.0.0",
+  "description": "CI-first visibility into feature flags and conditional code paths",
+  "main": "dist/index.js",
+  "bin": {
+    "flagwatch": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "feature-flags",
+    "static-analysis",
+    "ci",
+    "code-analysis",
+    "dead-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
