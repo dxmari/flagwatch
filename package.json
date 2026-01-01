@@ -1,6 +1,6 @@
 {
   "name": "flagwatch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Static analysis tool for detecting unused, missing, and dead feature flags in JavaScript/TypeScript codebases. CI-ready with zero dependencies.",
   "main": "dist/index.js",
   "bin": {
