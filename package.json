@@ -1,6 +1,6 @@
 {
   "name": "flagwatch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Static analysis tool for detecting unused, missing, and dead feature flags in JavaScript/TypeScript codebases. CI-ready with zero dependencies.",
   "main": "dist/index.js",
   "bin": {
@@ -55,12 +55,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/flagwatch.git"
+    "url": "https://github.com/dxmari/flagwatch.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/flagwatch/issues"
+    "url": "https://github.com/dxmari/flagwatch/issues"
   },
-  "homepage": "https://github.com/your-org/flagwatch#readme",
+  "homepage": "https://github.com/dxmari/flagwatch#readme",
   "files": [
     "dist",
     "README.md",

@@ -70,7 +70,7 @@ Exit Codes:
   1  Policy violation (future)
   2  Internal failure
 
-For more information, see: https://github.com/your-org/flagwatch
+For more information, see: https://github.com/dxmari/flagwatch
 `);
 }
 
