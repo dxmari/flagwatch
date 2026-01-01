@@ -1,8 +1,10 @@
 # Flagwatch
 
 [![npm version](https://img.shields.io/npm/v/flagwatch)](https://www.npmjs.com/package/flagwatch)
+[![npm downloads](https://img.shields.io/npm/dm/flagwatch)](https://www.npmjs.com/package/flagwatch)
 [![License](https://img.shields.io/npm/l/flagwatch)](LICENSE)
 [![CI Status](https://img.shields.io/github/workflow/status/your-org/flagwatch/CI)](https://github.com/your-org/flagwatch/actions)
+[![Node.js Version](https://img.shields.io/node/v/flagwatch)](https://nodejs.org/)
 
 > **CI-first visibility into feature flags and conditional code paths**  
 > Detect unused, missing, and misleading flags *before* they turn into dead code or risky releases.

@@ -1,7 +1,7 @@
 {
   "name": "flagwatch",
-  "version": "1.0.0",
-  "description": "CI-first visibility into feature flags and conditional code paths",
+  "version": "1.0.1",
+  "description": "Static analysis tool for detecting unused, missing, and dead feature flags in JavaScript/TypeScript codebases. CI-ready with zero dependencies.",
   "main": "dist/index.js",
   "bin": {
     "flagwatch": "dist/cli.js"
@@ -15,16 +15,52 @@
   },
   "keywords": [
     "feature-flags",
+    "feature-toggles",
+    "feature-gates",
+    "flags",
+    "toggles",
     "static-analysis",
-    "ci",
+    "static-analysis-tool",
     "code-analysis",
-    "dead-code"
+    "dead-code",
+    "unused-code",
+    "code-quality",
+    "code-cleanup",
+    "refactoring",
+    "technical-debt",
+    "ci",
+    "continuous-integration",
+    "github-actions",
+    "gitlab-ci",
+    "circleci",
+    "devtools",
+    "developer-tools",
+    "linting",
+    "code-review",
+    "typescript",
+    "javascript",
+    "nodejs",
+    "npm",
+    "npx",
+    "zero-dependencies",
+    "cli",
+    "command-line"
   ],
-  "author": "",
+  "author": {
+    "name": "Flagwatch Contributors"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/flagwatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/flagwatch/issues"
+  },
+  "homepage": "https://github.com/your-org/flagwatch#readme",
   "files": [
     "dist",
     "README.md",
